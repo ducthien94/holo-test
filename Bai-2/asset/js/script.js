@@ -5,33 +5,39 @@ let desc = document.querySelector(".desc");
 let btn = document.querySelector(".btn");
 let nav = document.querySelector(".nav");
 
+wow = new WOW({
+  boxClass: "wow", // default
+  animateClass: "animated", // change this if you are not using animate.css
+  offset: 0, // default
+  mobile: true, // keep it on mobile
+  live: true, // track if element updates
+});
+wow.init();
 
 const toggle = () => {
-    overlay.classList.toggle("show");
-}
+  overlay.classList.toggle("show");
+};
 
 const showMenu = () => {
-    nav.style.visibility = "visible";
-}
+  nav.style.visibility = "visible";
+};
 
 const hideMenu = () => {
-    nav.style.visibility = "hidden";
-}
+  nav.style.visibility = "hidden";
+};
 
-setTimeout(() => {
-    headerTop.style.visibility = "visible";
-}, 800);
+// setTimeout(() => {
+//     headerTop.style.visibility = "visible";
+// }, 800);
 
-setTimeout(() => {
-    title.style.visibility = "visible";
-}, 1600);
+// setTimeout(() => {
+//     title.style.visibility = "visible";
+// }, 1600);
 
-setTimeout(() => {
-    desc.style.visibility = "visible";
-}, 2400);
+// setTimeout(() => {
+//     desc.style.visibility = "visible";
+// }, 2400);
 
-setTimeout(() => {
-    btn.style.visibility = "visible";
-}, 3200);
-
-
+// setTimeout(() => {
+//     btn.style.visibility = "visible";
+// }, 3200);

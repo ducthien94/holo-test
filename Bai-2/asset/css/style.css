@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .logo {
@@ -86,14 +86,14 @@ body {
   line-height: 1.1;
   margin-bottom: 75px;
   font-weight: 800;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .header-content .desc {
   color: #4f5c66;
   line-height: 1.8;
   margin-bottom: 60px;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .header-content .btn {
@@ -107,7 +107,7 @@ body {
   cursor: pointer;
   border-radius: 25px;
   transition-duration: 0.5s;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .header-content .btn:hover {

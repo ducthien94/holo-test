@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap" rel="stylesheet">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+     <!-- Responsive CSS -->
+     <link rel="stylesheet" href="./asset/css/responsive.css">
+</head>
+<body>
+   <div class="container">
+        <header class="header">
+        <section class="header-top">
+            <div class="logo">Name Co.</div>
+                <nav class="nav">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">About us</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Services</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Contact us</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Get started</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-icon" onclick="showMenu();">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="close-menu" onclick="hideMenu();">
+                    <i class="fas fa-times"></i>
+                </div>
+        </section>
+        <section class="header-content">
+            <h1 class="title">Online education</h1>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <button class="btn" onclick="toggle();">Start lession <i class="fas fa-caret-right"></i></button>
+        </section>
+        <section class="overlay">
+            <div class="video">
+                <iframe width="760" height="515" src="https://www.youtube.com/embed/rj77sOhj3tU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="close-video" onclick="toggle();">
+                <i class="fas fa-times"></i>
+            </div>
+        </section>
+    </header>
+   </div>
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/2c1eea7cec.js" crossorigin="anonymous"></script>
+    <!-- Script js -->
+    <script src="./asset/js/script.js"></script>
+</body>
+</html>

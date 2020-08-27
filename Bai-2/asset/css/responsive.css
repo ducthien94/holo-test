@@ -30,11 +30,10 @@
         padding: 30px 20px;
         background-position: top;
     }
-    .menu-icon, .close-menu {
+    /* .menu-icon, .close-menu {
       display: block;
     }
     .nav {
-        /* display: none; */
         visibility: hidden;
         position: fixed;
         top: 0px;
@@ -63,7 +62,7 @@
         left: 130px;
         top: 10px;
         color: #f8f9fa;
-    }
+    } */
     .video {
         width: 550px;
         height: 400px;

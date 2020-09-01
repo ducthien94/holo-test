@@ -10,4 +10,20 @@ $(function() {
     $(".close").click(function() {
         $(".overlay").fadeOut();
     })
+
+    // Zoom in image
+    $(".zoom-in").click(function() {
+        $(this).parent().parent().animate({
+            width: "1015px",
+            height: "680px"
+        })
+    })
+
+    // Zoom out image
+    $(".zoom-out").click(function() {
+        $(this).parent().parent().animate({
+            width: "615px",
+            height: "400px"
+        })
+    })
 })

@@ -26,18 +26,3 @@ const hideMenu = () => {
   nav.style.visibility = "hidden";
 };
 
-// setTimeout(() => {
-//     headerTop.style.visibility = "visible";
-// }, 800);
-
-// setTimeout(() => {
-//     title.style.visibility = "visible";
-// }, 1600);
-
-// setTimeout(() => {
-//     desc.style.visibility = "visible";
-// }, 2400);
-
-// setTimeout(() => {
-//     btn.style.visibility = "visible";
-// }, 3200);

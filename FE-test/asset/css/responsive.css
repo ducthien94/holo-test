@@ -1,0 +1,48 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .gallery {
+        flex-direction: column;
+    }
+    .overlay .popup {
+       width: 70%;
+       height: 40%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .gallery-item {
+        flex-basis: 48.5%;
+    }
+    .overlay .popup {
+        width: 70%;
+        height: 40%;
+     }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .overlay .popup {
+        width: 70%;
+        height: 48%;
+     }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .gallery-item {
+        flex-basis: 32%;
+    }
+    .overlay .popup {
+        width: 55%;
+        height: 50%;
+     }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .overlay .popup {
+        width: 45%;
+        height: 50%;
+     }
+}

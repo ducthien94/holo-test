@@ -25,7 +25,7 @@
             },
             {
                 "title": "Tiện ích Sapphire 2",
-                "srcCoverImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh  thực tế PK Sapphire 2/6.jpg"
+                "srcCoverImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/6.jpg"
             },
             {
                 "title": "Tiện ích khác",
@@ -392,9 +392,186 @@
         ]
     },
     {
-        "sapphire2": []
+        "sapphire2": [{
+                "title": "Ảnh thực tế PK Sapphire 2",
+                "srcCoverImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/1.jpg",
+                "child": [{
+                        "title": "Tiện ích 1",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/1.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 2",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/2.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 3",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/3.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 4",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/4.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 5",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/5.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 6",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/6.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 7",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/7.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 8",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/8.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 9",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/9.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 10",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/10.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 11",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/11.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 12",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh thực tế/12.jpg"
+                    }
+                ]
+            },
+            {
+                "title": "Ảnh 3D PK Sapphire 2",
+                "srcCoverImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh 3D PK Sapphire 2/3.jpg",
+                "child": [{
+                        "title": "Tiện ích 1",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh 3D PK Sapphire 2/1.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 2",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh 3D PK Sapphire 2/2.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 3",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh 3D PK Sapphire 2/3.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 4",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh 3D PK Sapphire 2/4.jpg"
+                    },
+                    {
+                        "title": "Tiện ích 5",
+                        "srcImg": "asset/images/Ảnh tiện ích Sapphire 2/Ảnh 3D PK Sapphire 2/5.jpg"
+                    }
+                ]
+            }
+        ]
     },
     {
-        "other": []
+        "other": [{
+                "title": "Biểu tượng dự án",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/1 Biểu tượng dự án/1.jpg",
+                "child": [{
+                    "title": "DSC_9220",
+                    "srcImg": "asset/images/Ảnh chụp các tiện ích/1 Biểu tượng dự án/1.jpg"
+                }]
+            },
+            {
+                "title": "Khu tập GYM",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/2 Khu tập Gym/1.jpg",
+                "child": [{
+                    "title": "DSC_0072",
+                    "srcImg": "asset/images/Ảnh chụp các tiện ích/2 Khu tập Gym/1.jpg"
+                }, {
+                    "title": "DSC_0132",
+                    "srcImg": "asset/images/Ảnh chụp các tiện ích/2 Khu tập Gym/2.jpg"
+                }]
+            },
+            {
+                "title": "Hồ san hô",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/3 Hồ san hô/1.jpg",
+                "child": [{
+                        "title": "DSC_9489",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/3 Hồ san hô/1.jpg"
+                    },
+                    {
+                        "title": "DSC_9774",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/3 Hồ san hô/2.jpg"
+                    }
+                ]
+            },
+            {
+                "title": "Cối xay gió",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/4 Cối xay gió/1.jpg",
+                "child": [{
+                    "title": "DSC_0230",
+                    "srcImg": "asset/images/Ảnh chụp các tiện ích/4 Cối xay gió/1.jpg"
+                }]
+            },
+            {
+                "title": "BT Trái đát yêu thương",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/5 Biểu tượng trái đât yêu thương/1.jpg",
+                "child": [{
+                        "title": "DSC_0315",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/5 Biểu tượng trái đât yêu thương/1.jpg"
+                    },
+                    {
+                        "title": "DSC_0371",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/5 Biểu tượng trái đât yêu thương/2.jpg"
+                    }
+                ]
+            },
+            {
+                "title": "Điểm câu cá",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/6 Điểm câu cá/1.jpg",
+                "child": [{
+                        "title": "DSC_0429",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/6 Điểm câu cá/1.jpg"
+                    },
+                    {
+                        "title": "DSC_0487",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/6 Điểm câu cá/2.jpg"
+                    }
+                ]
+            },
+            {
+                "title": "Hồ ngọc trai",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/7 Hồ ngọc trai/1.jpg",
+                "child": [{
+                    "title": "DSC_0603",
+                    "srcImg": "asset/images/Ảnh chụp các tiện ích/7 Hồ ngọc trai/1.jpg"
+                }]
+            },
+            {
+                "title": "Quảng trường cá voi",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/8 Quảng trường Cá Voi/1.jpg",
+                "child": [{
+                        "title": "DSC_0695",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/8 Quảng trường Cá Voi/1.jpg"
+                    },
+                    {
+                        "title": "DSC_0715",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/8 Quảng trường Cá Voi/2.jpg"
+                    },
+                    {
+                        "title": "DSC_0749",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/8 Quảng trường Cá Voi/3.jpg"
+                    }
+                ]
+            },
+            {
+                "title": "TTTM Vincom",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/9 TTTM Vincom/1.jpg",
+                "child": [{
+                    "title": "DSC_0603",
+                    "srcImg": "asset/images/Ảnh chụp các tiện ích/9 TTTM Vincom/1.jpg"
+                }]
+            }
+        ]
     }
 ]

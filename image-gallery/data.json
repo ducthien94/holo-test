@@ -485,12 +485,14 @@
                 "title": "Khu tập GYM",
                 "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/2 Khu tập Gym/1.jpg",
                 "child": [{
-                    "title": "DSC_0072",
-                    "srcImg": "asset/images/Ảnh chụp các tiện ích/2 Khu tập Gym/1.jpg"
-                }, {
-                    "title": "DSC_0132",
-                    "srcImg": "asset/images/Ảnh chụp các tiện ích/2 Khu tập Gym/2.jpg"
-                }]
+                        "title": "DSC_0072",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/2 Khu tập Gym/1.jpg"
+                    },
+                    {
+                        "title": "DSC_0132",
+                        "srcImg": "asset/images/Ảnh chụp các tiện ích/2 Khu tập Gym/2.jpg"
+                    }
+                ]
             },
             {
                 "title": "Hồ san hô",
@@ -541,10 +543,10 @@
             },
             {
                 "title": "Hồ ngọc trai",
-                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/7 Hồ ngọc trai/1.jpg",
+                "srcCoverImg": "asset/images/Ảnh chụp các tiện ích/7 Hồ Ngọc Trai/1.jpg",
                 "child": [{
                     "title": "DSC_0603",
-                    "srcImg": "asset/images/Ảnh chụp các tiện ích/7 Hồ ngọc trai/1.jpg"
+                    "srcImg": "asset/images/Ảnh chụp các tiện ích/7 Hồ Ngọc Trai/1.jpg"
                 }]
             },
             {

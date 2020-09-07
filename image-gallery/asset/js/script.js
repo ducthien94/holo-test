@@ -85,7 +85,7 @@ function showGalleryItem(i, category, id) {
             const { srcImg, title } = item;
             $(".sub-gallery").append(`
                  <div class="gallery-item1">
-                     <img onclick=getSrc()" src="${srcImg}" alt="${title}" class="gallery-img">
+                     <img onclick="getSrc()" src="${srcImg}" alt="${title}" class="gallery-img">
                      <div class="overlay">${title}</div>
                  </div>
              `);

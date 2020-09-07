@@ -13,6 +13,15 @@ body {
     margin: 0 auto;
 }
 
+.heading {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+}
+
 .gallery,
 .sub-gallery {
     width: 100%;
@@ -70,4 +79,77 @@ body {
 .gallery-item1:hover .gallery-img {
     transform: scale(1.1);
     opacity: 0.6;
+    cursor: pointer;
+}
+
+.overlay-img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, .8);
+    display: none;
+}
+
+.popup {
+    width: 615px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.popup .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: #a19d9d;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, .6);
+    cursor: pointer;
+    transition: ease .4s;
+}
+
+.popup .close:hover {
+    color: #fff;
+}
+
+.popup img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popup .zoom-box {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, .5);
+    text-align: center;
+}
+
+.zoom-in,
+.zoom-out {
+    font-size: 30px;
+    color: #a19d9d;
+    transition: ease .4s;
+    display: inline-block;
+}
+
+.zoom-in:hover,
+.zoom-out:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.zoom-out {
+    margin-right: 15px;
 }

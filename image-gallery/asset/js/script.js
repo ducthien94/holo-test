@@ -43,7 +43,7 @@ $(function() {
                     const { srcImg, title } = item;
                     $(".sub-gallery").append(`
                        <div class="gallery-item1">
-                           <img onclick="getSrc()" src="${srcImg}" alt="${title}" class="gallery-img">
+                           <img onclick="showPopup(this)" src="${srcImg}" alt="${title}" class="gallery-img">
                            <div class="overlay">${title}</div>
                        </div>
                    `);
@@ -85,15 +85,25 @@ function showGalleryItem(i, category, id) {
             const { srcImg, title } = item;
             $(".sub-gallery").append(`
                  <div class="gallery-item1">
-                     <img onclick="getSrc()" src="${srcImg}" alt="${title}" class="gallery-img">
+                     <img onclick="showPopup(this)" src="${srcImg}" alt="${title}" class="gallery-img">
                      <div class="overlay">${title}</div>
                  </div>
              `);
         });
     })
+
+
 }
 
-function getSrc() {
-    let srcImg = $(this).attr("src");
-    console.log(srcImg);
+function showPopup(o) {
+    let srcImg = o.src;
+    let title = o.alt;
+    $(".overlay-img").fadeIn();
+    $(".popup").children("img").attr("src", srcImg);
+    $(".popup .img-title").text(title)
 }
+
+// Close popup
+$(".close").click(function() {
+    $(".overlay-img").fadeOut();
+})

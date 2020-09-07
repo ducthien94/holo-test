@@ -93,8 +93,8 @@ body {
 }
 
 .popup {
-    width: 615px;
-    height: 400px;
+    width: 1000px;
+    height: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -127,29 +127,12 @@ body {
     object-fit: cover;
 }
 
-.popup .zoom-box {
+.popup .img-title {
     padding: 10px;
-    width: 100%;
+    width: 20%;
     position: absolute;
     bottom: 0;
     background-color: rgb(0, 0, 0, .5);
     text-align: center;
-}
-
-.zoom-in,
-.zoom-out {
-    font-size: 30px;
-    color: #a19d9d;
-    transition: ease .4s;
-    display: inline-block;
-}
-
-.zoom-in:hover,
-.zoom-out:hover {
     color: #fff;
-    cursor: pointer;
-}
-
-.zoom-out {
-    margin-right: 15px;
 }

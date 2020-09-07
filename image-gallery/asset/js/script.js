@@ -38,6 +38,7 @@ $(function() {
             $(`.item-${id}`).click(function() {
                 $(".gallery").hide();
                 $(".heading").text(title);
+                $(".breadcrumb").show();
                 $(".breadcrumb").append(`
                     <li class="breadcrumb-item"><a href="#">${title}</a></li>
                 `)
@@ -61,8 +62,9 @@ $(function() {
             $(`.item-${id}`).click(function() {
                 $(".gallery").hide();
                 $(".heading").text(title);
+                $(".breadcrumb").show();
                 $(".breadcrumb").append(`
-                    <li class="breadcrumb-item" onclick="getData(${id})"><a href="#">${title}</a></li>
+                    <li class="breadcrumb-item" onclick="getPrevData(${id})"><a href="#">${title}</a></li>
                 `)
 
                 let subGallery = data[id][category];
@@ -87,6 +89,7 @@ function showGalleryItem(i, category, id) {
         let title = data[i].title
         $(".gallery-item").hide();
         $(".heading").text(title);
+        $(".breadcrumb").show();
         $(".breadcrumb").append(`
             <li class="breadcrumb-item"><a href="#">${title}</a></li>
         `)
@@ -103,7 +106,7 @@ function showGalleryItem(i, category, id) {
 }
 
 // Breadcrumb
-function getData(id) {
+function getPrevData(id) {
     let category = "",
         pageTitle = "";
 
@@ -121,6 +124,7 @@ function getData(id) {
     }
     $.getJSON("data.json", function(result) {
         let data = result[id][category];
+        $(".breadcrumb").show();
         $(".breadcrumb-item").last().remove();
         $(".heading").text(pageTitle);
         data.forEach((item, i) => {

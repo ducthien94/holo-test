@@ -21,6 +21,7 @@ nav {
 
 .breadcrumb {
     list-style: none;
+    display: none;
 }
 
 .breadcrumb-item {

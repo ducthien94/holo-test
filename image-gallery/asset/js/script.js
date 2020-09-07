@@ -104,19 +104,25 @@ function showGalleryItem(i, category, id) {
 
 // Breadcrumb
 function getData(id) {
-    let category = "";
+    let category = "",
+        pageTitle = "";
+
     if (id === 3) {
         category = "sapphire1";
+        pageTitle = "Tiện ích Sapphire 1";
     }
     if (id === 7) {
         category = "sapphire2";
+        pageTitle = "Tiện ích Sapphire 2";
     }
     if (id === 8) {
         category = "other";
+        pageTitle = "Tiện ích khác"
     }
     $.getJSON("data.json", function(result) {
         let data = result[id][category];
         $(".breadcrumb-item").last().remove();
+        $(".heading").text(pageTitle);
         data.forEach((item, i) => {
             const { srcCoverImg, title } = item;
             $(".gallery-item1").hide();

@@ -140,6 +140,6 @@ function showPopup(o) {
 }
 
 // Hide popup
-$(".close").click(function() {
+$(".close, .overlay-img").click(function() {
     $(".overlay-img").fadeOut();
 });

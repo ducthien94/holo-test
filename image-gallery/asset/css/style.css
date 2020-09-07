@@ -15,6 +15,8 @@ body {
 
 nav {
     width: 100%;
+    margin-bottom: 25px;
+    margin-left: 5px;
 }
 
 .breadcrumb {
@@ -25,12 +27,12 @@ nav {
     display: inline-block;
 }
 
-.breadcrumb-item::before {
+.breadcrumb-item::after {
     content: "/";
     margin: 0 5px;
 }
 
-.breadcrumb-item:first-child::before {
+.breadcrumb-item:last-child::after {
     content: "";
 }
 
@@ -49,11 +51,7 @@ nav {
 
 .heading {
     display: inline-block;
-    margin: 0 30px 30px 0;
-}
-
-.btn {
-    padding: 10px 20px;
+    margin: 30px 30px 20px 5px;
 }
 
 .gallery,

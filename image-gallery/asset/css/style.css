@@ -13,6 +13,40 @@ body {
     margin: 0 auto;
 }
 
+nav {
+    width: 100%;
+}
+
+.breadcrumb {
+    list-style: none;
+}
+
+.breadcrumb-item {
+    display: inline-block;
+}
+
+.breadcrumb-item::before {
+    content: "/";
+    margin: 0 5px;
+}
+
+.breadcrumb-item:first-child::before {
+    content: "";
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #41b3e0;
+}
+
+.breadcrumb-item:last-child a {
+    color: #868e91;
+}
+
+.breadcrumb-item:last-child:hover a {
+    cursor: default;
+}
+
 .heading {
     display: inline-block;
     margin: 0 30px 30px 0;

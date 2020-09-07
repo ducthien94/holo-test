@@ -38,6 +38,10 @@ $(function() {
             $(`.item-${id}`).click(function() {
                 $(".gallery").hide();
                 $(".heading").text(title);
+                $(".breadcrumb").append(`
+                    <li class="breadcrumb-item"><a href="#">${title}</a></li>
+                `)
+
                 let galleryItem = data[id][category];
                 galleryItem.forEach((item) => {
                     const { srcImg, title } = item;
@@ -57,6 +61,9 @@ $(function() {
             $(`.item-${id}`).click(function() {
                 $(".gallery").hide();
                 $(".heading").text(title);
+                $(".breadcrumb").append(`
+                    <li class="breadcrumb-item" onclick="getData(${id})"><a href="#">${title}</a></li>
+                `)
 
                 let subGallery = data[id][category];
                 subGallery.forEach((item, i) => {
@@ -71,7 +78,6 @@ $(function() {
             });
         })
     });
-
 });
 
 // Show gallery item of sub-gallery
@@ -81,6 +87,9 @@ function showGalleryItem(i, category, id) {
         let title = data[i].title
         $(".gallery-item").hide();
         $(".heading").text(title);
+        $(".breadcrumb").append(`
+            <li class="breadcrumb-item"><a href="#">${title}</a></li>
+        `)
         data[i].child.forEach((item) => {
             const { srcImg, title } = item;
             $(".sub-gallery").append(`
@@ -91,10 +100,37 @@ function showGalleryItem(i, category, id) {
              `);
         });
     })
-
-
 }
 
+// Breadcrumb
+function getData(id) {
+    let category = "";
+    if (id === 3) {
+        category = "sapphire1";
+    }
+    if (id === 7) {
+        category = "sapphire2";
+    }
+    if (id === 8) {
+        category = "other";
+    }
+    $.getJSON("data.json", function(result) {
+        let data = result[id][category];
+        $(".breadcrumb-item").last().remove();
+        data.forEach((item, i) => {
+            const { srcCoverImg, title } = item;
+            $(".gallery-item1").hide();
+            $(".sub-gallery").append(`
+                <div class="gallery-item" onclick="showGalleryItem(${i}, '${category}', ${id})">
+                    <img src="${srcCoverImg}" alt="${title}" class="gallery-img">
+                    <div class="overlay">${title}</div>
+                </div>
+            `);
+        });
+    })
+}
+
+//Show popup
 function showPopup(o) {
     let srcImg = o.src;
     let title = o.alt;
@@ -103,7 +139,7 @@ function showPopup(o) {
     $(".popup .img-title").text(title)
 }
 
-// Close popup
+// Hide popup
 $(".close").click(function() {
     $(".overlay-img").fadeOut();
-})
+});
